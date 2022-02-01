@@ -29,8 +29,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- https://cdn.discordapp.com/attachments/908510976624721930/927485205504196628/a_d63e7daf8c9031f3911f610609956806.gif -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+jQuery(document).ready(function(){
+  jQuery(function() {
+        jQuery(this).bind("contextmenu", function(event) {
+            event.preventDefault();
+            alert("I won't let you UwU")
+        });
+    });
+});
+</script>
     <script src="/staticfiles/js/jquery-1.12.4.min.js"></script>
-  
+    
 
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap"); /* Teko font */
